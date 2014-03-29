@@ -12,15 +12,12 @@
 		<url>http://www.unitsofmeasurement.org</url>
 	</organization>
 
-	<!--  parent>
-		<groupId>org.sonatype.oss</groupId>
-		<artifactId>oss-parent</artifactId>
+	<!-- parent> <groupId>org.sonatype.oss</groupId> <artifactId>oss-parent</artifactId> 
 		<version>7</version -->
-		<!-- Disable behavior of looking at ../pom.xml and instead resolve the 
-			parent POM from the repositories -->
-		<!-- See http://maven.apache.org/ref/3.1.1/maven-model/maven.html#class_parent -->
-		<!-- relativePath />
-	</parent -->
+	<!-- Disable behavior of looking at ../pom.xml and instead resolve the parent 
+		POM from the repositories -->
+	<!-- See http://maven.apache.org/ref/3.1.1/maven-model/maven.html#class_parent -->
+	<!-- relativePath /> </parent -->
 
 	<properties>
 		<jsr.version>0.5-SNAPSHOT</jsr.version>
@@ -35,15 +32,15 @@
 		<slf4j.version>1.6.1</slf4j.version>
 		<additionalparam>-Xdoclint:none</additionalparam>
 	</properties>
-	
-     <repositories>
-        <repository>
-            <id>unitsofmeasurement-github-repo</id>
-            <name>Local repository for Unit-API or other Units of Measurement artifacts we depend on</name>
-            <url>https://github.com/unitsofmeasurement/repository/raw/master</url>
-        </repository>
-    </repositories>
-	
+
+	<repositories>
+		<repository>
+			<id>unitsofmeasurement-github-repo</id>
+			<name>Local repository for Unit-API or other Units of Measurement artifacts we depend on</name>
+			<url>https://github.com/unitsofmeasurement/repository/raw/master</url>
+		</repository>
+	</repositories>
+
 	<licenses>
 		<license>
 			<name>Apache License version 2.0</name>
@@ -101,9 +98,9 @@
 							<goals>
 								<goal>jar</goal>
 							</goals>
-							 <configuration>
-                                <failOnError>false</failOnError>
-                            </configuration>
+							<configuration>
+								<failOnError>false</failOnError>
+							</configuration>
 						</execution>
 					</executions>
 					<configuration>
