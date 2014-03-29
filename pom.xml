@@ -12,15 +12,15 @@
 		<url>http://www.unitsofmeasurement.org</url>
 	</organization>
 
-	<parent>
+	<!--  parent>
 		<groupId>org.sonatype.oss</groupId>
 		<artifactId>oss-parent</artifactId>
-		<version>7</version>
+		<version>7</version -->
 		<!-- Disable behavior of looking at ../pom.xml and instead resolve the 
 			parent POM from the repositories -->
 		<!-- See http://maven.apache.org/ref/3.1.1/maven-model/maven.html#class_parent -->
-		<relativePath />
-	</parent>
+		<!-- relativePath />
+	</parent -->
 
 	<properties>
 		<jsr.version>0.5-SNAPSHOT</jsr.version>
@@ -36,7 +36,7 @@
 		<additionalparam>-Xdoclint:none</additionalparam>
 	</properties>
 	
-	 <repositories>
+     <repositories>
         <repository>
             <id>unitsofmeasurement-github-repo</id>
             <name>Local repository for Unit-API or other Units of Measurement artifacts we depend on</name>
