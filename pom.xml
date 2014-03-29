@@ -17,14 +17,14 @@
 		POM from the repositories -->
 	<!-- See http://maven.apache.org/ref/3.1.1/maven-model/maven.html#class_parent -->
 	<!-- relativePath /> </parent -->
-    <licenses>
-        <license>
-            <name>Apache License version 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-        </license>
-    </licenses>
-    <inceptionYear>2010</inceptionYear>
-    
+	<licenses>
+		<license>
+			<name>Apache License version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0</url>
+		</license>
+	</licenses>
+	<inceptionYear>2010</inceptionYear>
+
 	<properties>
 		<jsr.version>0.5-SNAPSHOT</jsr.version>
 		<proj.version>0.4-SNAPSHOT</proj.version>
@@ -38,18 +38,18 @@
 		<slf4j.version>1.6.1</slf4j.version>
 		<additionalparam>-Xdoclint:none</additionalparam>
 	</properties>
-	
+
 	<!-- ============================== -->
-    <!-- Additional repositories        -->
-    <!-- ============================== -->
-    <repositories>
-        <repository>
-            <id>unitsofmeasurement-github-repo</id>
-            <name>Local repository for Unit-API or other Units of Measurement artifacts we depend on</name>
-            <url>https://github.com/unitsofmeasurement/repository/raw/master</url>
-        </repository>
-    </repositories>
-	
+	<!-- Additional repositories -->
+	<!-- ============================== -->
+	<repositories>
+		<repository>
+			<id>unitsofmeasurement-github-repo</id>
+			<name>Local repository for Unit-API or other Units of Measurement artifacts we depend on</name>
+			<url>https://github.com/unitsofmeasurement/repository/raw/master</url>
+		</repository>
+	</repositories>
+
 	<build>
 		<pluginManagement>
 			<plugins>
