@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.unitsofmeasurement</groupId>
 	<artifactId>unitsofmeasurement-parent</artifactId>
-	<version>0.4</version>
+	<version>0.5-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Units of Measurement parent</name>
 	<description>Units of Measurement Project Parent POM</description>
@@ -27,7 +27,7 @@
 
 	<properties>
 		<jsr.version>0.5-SNAPSHOT</jsr.version>
-		<proj.version>0.4-SNAPSHOT</proj.version>
+		<proj.version>0.5-SNAPSHOT</proj.version>
         <sourceEncoding>UTF-8</sourceEncoding> <!-- in Maven 3. -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>${sourceEncoding}</project.reporting.outputEncoding>
