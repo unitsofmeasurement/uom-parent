@@ -27,10 +27,10 @@
 
 	<properties>
 		<jsr.version>0.5-SNAPSHOT</jsr.version>
-		<proj.version>0.5-SNAPSHOT</proj.version>
-        <sourceEncoding>UTF-8</sourceEncoding> <!-- in Maven 3. -->
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>${sourceEncoding}</project.reporting.outputEncoding>
+		<proj.version>${project.version}</proj.version>
+		<sourceEncoding>UTF-8</sourceEncoding> <!-- in Maven 3. -->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>${sourceEncoding}</project.reporting.outputEncoding>
 		<!-- dependency versions -->
 		<junit.version>4.11</junit.version>
 		<slf4j.version>1.6.1</slf4j.version>
@@ -47,6 +47,20 @@
 			<url>https://github.com/unitsofmeasurement/repository/raw/master</url>
 		</repository>
 	</repositories>
+
+	<!-- ============================== -->
+	<!-- Dependency Management -->
+	<!-- ============================== -->
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>junit</groupId>
+				<artifactId>junit</artifactId>
+				<version>${junit.version}</version>
+				<scope>test</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 
 	<build>
 		<pluginManagement>
