@@ -247,6 +247,9 @@
 						<mavenExecutorId>forked-path</mavenExecutorId>
 					</configuration>
 				</plugin>
+				<!-- ======================================================= -->
+                <!-- Packaging (OSGi bundle) -->
+                <!-- ======================================================= -->
 				<plugin>
 					<groupId>org.apache.felix</groupId>
 					<artifactId>maven-bundle-plugin</artifactId>
