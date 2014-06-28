@@ -37,6 +37,93 @@
 		<additionalparam>-Xdoclint:none</additionalparam>
 	</properties>
 
+	<!-- Developers and Contributors -->
+	<developers>
+		<developer>
+			<id>dautelle</id>
+			<name>Jean-Marie Dautelle</name>
+			<email>jean-marie@dautelle.com</email>
+			<organization>Airbus</organization>
+			<organizationUrl>http://www.airbus.com</organizationUrl>
+			<timezone>+1</timezone>
+			<roles>
+				<role>Architect</role>
+				<role>Java Developer</role>
+				<role>Spec Lead</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>werner.keil</id>
+			<name>Werner Keil</name>
+			<email>werner@catmedia.us</email>
+			<organization>Creative Arts &amp; Technologies</organization>
+			<organizationUrl>http://www.catmedia.us</organizationUrl>
+			<timezone>+1</timezone>
+			<roles>
+				<role>Architect</role>
+				<role>Java Developer</role>
+				<role>Spec Lead</role>
+			</roles>
+		</developer>
+		<developer>
+			<name>Leonardo de Moura Rocha Lima</name>
+			<email>llima@v2com.mobi</email>
+			<organization>V2COM</organization>
+			<organizationUrl>http://www.v2com.mobi/</organizationUrl>
+			<timezone>-5</timezone>
+			<roles>
+				<role>Architect</role>
+				<role>Java Developer</role>
+				<role>Spec Lead</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>desruisseaux</id>
+			<name>Martin Desruisseaux</name>
+			<email>desruisseaux@users.sourceforge.net</email>
+			<organization>Geomatys</organization>
+			<organizationUrl>http://www.geomatys.com</organizationUrl>
+			<timezone>+1</timezone>
+			<roles>
+				<role>Expert</role>
+				<role>Java Developer</role>
+				<role>Jenkins Admin</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>karen_legrand</id>
+			<name>Karen Legrand</name>
+			<email>karen.legrand@iem.com</email>
+			<organization>Innovation Emergency Management (IEM)</organization>
+			<organizationUrl>http://www.iem.com</organizationUrl>
+			<timezone>-5</timezone>
+			<roles>
+				<role>Expert</role>
+				<role>Java Developer</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>otaviojava</id>
+			<name>Otávio Gonçalves de Santana</name>
+			<email>otaviopolianasantana@gmail.com</email>
+			<organization>Individual / SouJava</organization>
+			<timezone>-5</timezone>
+			<roles>
+				<role>Expert</role>
+				<role>Java Developer</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>christopher.senior</id>
+			<name>Chris Senior</name>
+			<email>christopher.senior@gmail.com</email>
+			<organization>Snap-on Inc.</organization>
+			<roles>
+				<role>Java Developer</role>
+			</roles>
+		</developer>
+	</developers>
+
 	<!-- ============================== -->
 	<!-- Additional repositories -->
 	<!-- ============================== -->
