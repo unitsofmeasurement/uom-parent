@@ -29,7 +29,7 @@
 		<jsr.version>0.6-SNAPSHOT</jsr.version>
 		<proj.version>${project.version}</proj.version>
 		<sourceEncoding>UTF-8</sourceEncoding> <!-- in Maven 3. -->
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.build.sourceEncoding>${sourceEncoding}</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>${sourceEncoding}</project.reporting.outputEncoding>
 		<!-- dependency versions -->
 		<junit.version>4.11</junit.version>
