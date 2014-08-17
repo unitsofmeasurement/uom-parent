@@ -115,88 +115,93 @@
 		</developer>
 	</developers>
 
-    <contributors>
-        <contributor>
-            <!-- >id>christopher.senior</id -->
-            <name>Chris Senior</name>
-            <email>christopher.senior@gmail.com</email>
-            <organization>Snap-on Inc.</organization>
-            <roles>
-                <role>Proposed Expert</role>
-                <role>Java Developer</role>
-            </roles>
-        </contributor>
-        <contributor>
-            <!-- >id>dan.leuck</id -->
-            <name>Daniel Leuck</name>
-            <email>dan@ikayzo.com</email>
-            <organization>Ikayzo</organization>
-            <timezone>-9</timezone>
-            <roles>
-                <role>Globalization Support</role>
-            </roles>
-        </contributor>
-        <contributor>
-            <!-- id>eric-r</id -->
-            <name>Eric Russell</name>
-            <email>eric-r@northwestern.edu</email>
-            <timezone>-5</timezone>
-            <roles>
-                <role>Supporter</role>
-            </roles>
-        </contributor>
-        <contributor>
-            <!-- id>paul.morrison</id -->
-            <name>John Paul Morrison</name>
-            <organization>J.P. Morrison Enterprises, Ltd.</organization>
-            <timezone>-5</timezone>
-            <roles>
-                <role>Supporter</role>
-                <role>Test Analyst</role>
-            </roles>
-        </contributor>
-        <contributor>
-            <name>Scott Murphy</name>
-            <email>scott@ikayzo.com</email>
-            <organization>Ikayzo</organization>
-            <timezone>-9</timezone>
-            <roles>
-                <role>Japanese Translator</role>
-            </roles>
-        </contributor>
-        <contributor>
-            <name>Mika Terada</name>
-            <email>mika@ikayzo.com</email>
-            <organization>Ikayzo</organization>
-            <timezone>-9</timezone>
-            <roles>
-                <role>Japanese Translator</role>
-            </roles>
-        </contributor>
-        <contributor>
-            <name>Anatol Filin</name>
-            <email>anatol@gramant.ru</email>
-            <organization>Gramant</organization>
-            <timezone>+4</timezone>
-            <roles>
-                <role>Russian Translator</role>
-            </roles>
-        </contributor>
-        <contributor>
-            <!-- id>mgruebsch</id -->
-            <name>Michael Gruebsch</name>
-            <email>michael@mkm-rabis.de</email>
-            <roles>
-                <role>Supporter</role>
-            </roles>
-            <timezone>+1</timezone>
-        </contributor>
-    </contributors>
+	<contributors>
+		<contributor>
+			<!-- >id>christopher.senior</id -->
+			<name>Chris Senior</name>
+			<email>christopher.senior@gmail.com</email>
+			<organization>Snap-on Inc.</organization>
+			<roles>
+				<role>Proposed Expert</role>
+				<role>Java Developer</role>
+			</roles>
+		</contributor>
+		<contributor>
+			<!-- >id>dan.leuck</id -->
+			<name>Daniel Leuck</name>
+			<email>dan@ikayzo.com</email>
+			<organization>Ikayzo</organization>
+			<timezone>-9</timezone>
+			<roles>
+				<role>Globalization Support</role>
+			</roles>
+		</contributor>
+		<contributor>
+			<!-- id>eric-r</id -->
+			<name>Eric Russell</name>
+			<email>eric-r@northwestern.edu</email>
+			<timezone>-5</timezone>
+			<roles>
+				<role>Supporter</role>
+			</roles>
+		</contributor>
+		<contributor>
+			<!-- id>paul.morrison</id -->
+			<name>John Paul Morrison</name>
+			<organization>J.P. Morrison Enterprises, Ltd.</organization>
+			<timezone>-5</timezone>
+			<roles>
+				<role>Supporter</role>
+				<role>Test Analyst</role>
+			</roles>
+		</contributor>
+		<contributor>
+			<name>Scott Murphy</name>
+			<email>scott@ikayzo.com</email>
+			<organization>Ikayzo</organization>
+			<timezone>-9</timezone>
+			<roles>
+				<role>Japanese Translator</role>
+			</roles>
+		</contributor>
+		<contributor>
+			<name>Mika Terada</name>
+			<email>mika@ikayzo.com</email>
+			<organization>Ikayzo</organization>
+			<timezone>-9</timezone>
+			<roles>
+				<role>Japanese Translator</role>
+			</roles>
+		</contributor>
+		<contributor>
+			<name>Anatol Filin</name>
+			<email>anatol@gramant.ru</email>
+			<organization>Gramant</organization>
+			<timezone>+4</timezone>
+			<roles>
+				<role>Russian Translator</role>
+			</roles>
+		</contributor>
+		<contributor>
+			<!-- id>mgruebsch</id -->
+			<name>Michael Gruebsch</name>
+			<email>michael@mkm-rabis.de</email>
+			<roles>
+				<role>Supporter</role>
+			</roles>
+			<timezone>+1</timezone>
+		</contributor>
+	</contributors>
 
 	<!-- ============================== -->
 	<!-- Additional repositories -->
 	<!-- ============================== -->
 	<repositories>
+		<repository>
+			<id>geotoolkit</id>
+			<name>Geotoolkit.org project</name>
+			<url>http://maven.geotoolkit.org</url>
+		</repository>
 		<repository>
 			<id>unitsofmeasurement-github-repo</id>
 			<name>Local repository for Unit-API or other Units of Measurement artifacts we depend on</name>
@@ -439,23 +444,10 @@
 				</plugin>
 			</plugins>
 		</pluginManagement>
-		<!-- plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-source-plugin</artifactId>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-javadoc-plugin</artifactId>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-jar-plugin</artifactId>
-			</plugin>
-		</plugins -->
+		<!-- plugins> <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-compiler-plugin</artifactId> 
+			</plugin> <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-source-plugin</artifactId> 
+			</plugin> <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-javadoc-plugin</artifactId> 
+			</plugin> <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-jar-plugin</artifactId> 
+			</plugin> </plugins -->
 	</build>
 </project>
