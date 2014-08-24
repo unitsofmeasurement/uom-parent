@@ -11,12 +11,16 @@
 		<name>Units of Measurement</name>
 		<url>http://www.unitsofmeasurement.org</url>
 	</organization>
-	<!-- parent> <groupId>org.sonatype.oss</groupId> <artifactId>oss-parent</artifactId> 
-		<version>7</version -->
-	<!-- Disable behavior of looking at ../pom.xml and instead resolve the parent 
-		POM from the repositories -->
-	<!-- See http://maven.apache.org/ref/3.1.1/maven-model/maven.html#class_parent -->
-	<!-- relativePath /> </parent -->
+	<!-- parent>
+		<groupId>org.sonatype.oss</groupId>
+		<artifactId>oss-parent</artifactId>
+		<version>7</version
+
+	     Disable behavior of looking at ../pom.xml and instead resolve the parent POM from the repositories
+	     See http://maven.apache.org/ref/3.1.1/maven-model/maven.html#class_parent
+
+		<relativePath/>
+	</parent -->
 	<licenses>
 		<license>
 			<name>Apache License version 2.0</name>
@@ -193,9 +197,7 @@
 		</contributor>
 	</contributors>
 
-	<!-- ============================== -->
 	<!-- Additional repositories -->
-	<!-- ============================== -->
 	<repositories>
 		<repository>
 			<id>geotoolkit</id>
@@ -209,9 +211,7 @@
 		</repository>
 	</repositories>
 
-	<!-- ============================== -->
 	<!-- Dependency Management -->
-	<!-- ============================== -->
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -232,11 +232,12 @@
 	<build>
 		<pluginManagement>
 			<plugins>
-				<!-- ======================================================= -->
 				<!-- License -->
-				<!-- ======================================================= -->
-				<!-- <plugin> <groupId>org.codehaus.mojo</groupId> <artifactId>license-maven-plugin</artifactId> 
-					<version>1.4</version> </plugin> -->
+				<!-- <plugin>
+					<groupId>org.codehaus.mojo</groupId>
+					<artifactId>license-maven-plugin</artifactId>
+					<version>1.4</version>
+				</plugin> -->
 				<plugin>
 					<groupId>com.google.code.maven-license-plugin</groupId>
 					<artifactId>maven-license-plugin</artifactId>
@@ -257,8 +258,7 @@
 						</excludes>
 					</configuration>
 				</plugin>
-				<!-- TODO enable this only for major upgrades (ensure to copy LICENSE.txt 
-					to LICENSE.bak first) -->
+				<!-- TODO enable this only for major upgrades (ensure to copy LICENSE.txt to LICENSE.bak first) -->
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-gpg-plugin</artifactId>
@@ -414,9 +414,7 @@
 						<mavenExecutorId>forked-path</mavenExecutorId>
 					</configuration>
 				</plugin>
-				<!-- ======================================================= -->
 				<!-- Packaging (OSGi bundle) -->
-				<!-- ======================================================= -->
 				<plugin>
 					<groupId>org.apache.felix</groupId>
 					<artifactId>maven-bundle-plugin</artifactId>
@@ -444,10 +442,23 @@
 				</plugin>
 			</plugins>
 		</pluginManagement>
-		<!-- plugins> <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-compiler-plugin</artifactId> 
-			</plugin> <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-source-plugin</artifactId> 
-			</plugin> <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-javadoc-plugin</artifactId> 
-			</plugin> <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-jar-plugin</artifactId> 
-			</plugin> </plugins -->
+		<!-- plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+			</plugin>
+		</plugins -->
 	</build>
 </project>
