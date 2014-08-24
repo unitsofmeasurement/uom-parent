@@ -211,6 +211,15 @@
 		</repository>
 	</repositories>
 
+	<!-- Deployment to public servers -->
+	<distributionManagement>
+		<snapshotRepository>
+			<id>geotoolkit</id>
+			<name>Maven repository for snapshots only</name>
+			<url>file:///var/www/maven.geotoolkit.org</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 	<!-- Dependency Management -->
 	<dependencyManagement>
 		<dependencies>
