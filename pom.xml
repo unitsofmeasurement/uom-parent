@@ -199,6 +199,11 @@
 			<url>http://maven.geotoolkit.org</url>
 		</repository>
 		<repository>
+		  <id>jcenter</id>
+		  <name>JCenter</name>
+		  <url>http://jcenter.bintray.com</url>
+		</repository>
+		<repository>
 		  <id>bintray-uom</id>
 		  <name>Bintray Units of Measurement</name>
 		  <url>http://dl.bintray.com/unitsofmeasurement/maven</url>
