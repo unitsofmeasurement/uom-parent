@@ -1,6 +1,6 @@
 unitsofmeasurement-parent
 =========================
-[![Build Status](https://travis-ci.org/unitsofmeasurement/uom-parent.svg?branch=master)](https://travis-ci.org/unitsofmeasurement/uom-parent)
+[![Build Status](https://drone.io/github.com/unitsofmeasurement/uom-parent/status.png)](https://drone.io/github.com/unitsofmeasurement/uom-parent/latest)
 [![License](http://img.shields.io/badge/license-BSD3-blue.svg)](http://opensource.org/licenses/BSD-3-Clause)
 
 Units of Measurement Project Parent POM
