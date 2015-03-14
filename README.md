@@ -2,6 +2,7 @@ unitsofmeasurement-parent
 =========================
 [![Build Status](https://drone.io/github.com/unitsofmeasurement/uom-parent/status.png)](https://drone.io/github.com/unitsofmeasurement/uom-parent/latest)
 [![License](http://img.shields.io/badge/license-BSD3-blue.svg?style=flat-square)](http://opensource.org/licenses/BSD-3-Clause)
+
 Units of Measurement Project Parent POM
 An open-sourced parent POM that Units of Measurement uses to unify top-level concerns across code bases (e.g. Java compiler version)
 
