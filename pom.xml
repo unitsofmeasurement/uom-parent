@@ -112,6 +112,16 @@
 			</roles>
 		</developer>
 		<developer>
+            <id>rajmahendra</id>
+            <name>Rajmahendra Hegde</name>
+            <email>rajmahendra@gmail.com</email>
+            <organization>JUG Chennai</organization>
+            <roles>
+                <role>Expert</role>
+                <role>Java Developer</role>
+            </roles>
+        </developer>
+		<developer>
 			<id>duckasteroid</id>
 			<name>Chris Senior</name>
 			<email>christopher.senior@gmail.com</email>
