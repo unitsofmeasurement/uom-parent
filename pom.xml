@@ -3,26 +3,31 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>tec.uom</groupId>
 	<artifactId>uom-parent</artifactId>
-	<version>0.8-RC1</version>
+	<version>0.8-RC2</version>
 	<packaging>pom</packaging>
 	<name>Units of Measurement parent</name>
 	<description>Units of Measurement Project Parent POM</description>
 	<organization>
 		<name>Units of Measurement</name>
-		<url>http://www.unitsofmeasurement.org</url>
+		<url>http://unitsofmeasurement.github.io/</url>
 	</organization>
-	<!-- parent> <groupId>org.sonatype.oss</groupId> <artifactId>oss-parent</artifactId> 
-		<version>7</version Disable behavior of looking at ../pom.xml and instead 
-		resolve the parent POM from the repositories See http://maven.apache.org/ref/3.1.1/maven-model/maven.html#class_parent 
-		<relativePath/> </parent -->
+	<parent>
+		<groupId>org.sonatype.oss</groupId>
+		<artifactId>oss-parent</artifactId>
+		<version>9</version>
+	</parent>
 	<licenses>
 		<license>
 			<name>BSD</name>
 			<url>http://opensource.org/licenses/BSD-3-Clause</url>
 		</license>
 	</licenses>
-	<inceptionYear>2010</inceptionYear>
-
+	<inceptionYear>2005</inceptionYear>
+    <scm>
+        <connection>scm:git:https://github.com/unitsofmeasurement/uom-parent.git</connection>
+        <developerConnection>scm:git:https://github.com/unitsofmeasurement/uom-parent.git</developerConnection>
+        <url>https://github.com/unitsofmeasurement/uom-parent.git</url>
+    </scm>
 	<properties>
 		<jsr.version>0.8-SNAPSHOT</jsr.version>
 		<proj.version>${project.version}</proj.version>
@@ -112,15 +117,15 @@
 			</roles>
 		</developer>
 		<developer>
-            <id>rajmahendra</id>
-            <name>Rajmahendra Hegde</name>
-            <email>rajmahendra@gmail.com</email>
-            <organization>JUG Chennai</organization>
-            <roles>
-                <role>Expert</role>
-                <role>Java Developer</role>
-            </roles>
-        </developer>
+			<id>rajmahendra</id>
+			<name>Rajmahendra Hegde</name>
+			<email>rajmahendra@gmail.com</email>
+			<organization>JUG Chennai</organization>
+			<roles>
+				<role>Expert</role>
+				<role>Java Developer</role>
+			</roles>
+		</developer>
 		<developer>
 			<id>duckasteroid</id>
 			<name>Chris Senior</name>
@@ -209,14 +214,14 @@
 			<url>http://maven.geotoolkit.org</url>
 		</repository>
 		<repository>
-		  <id>jcenter</id>
-		  <name>JCenter</name>
-		  <url>http://jcenter.bintray.com</url>
+			<id>jcenter</id>
+			<name>JCenter</name>
+			<url>http://jcenter.bintray.com</url>
 		</repository>
 		<repository>
-		  <id>bintray-uom</id>
-		  <name>Bintray Units of Measurement</name>
-		  <url>http://dl.bintray.com/unitsofmeasurement/maven</url>
+			<id>bintray-uom</id>
+			<name>Bintray Units of Measurement</name>
+			<url>http://dl.bintray.com/unitsofmeasurement/maven</url>
 		</repository>
 		<repository>
 			<id>unitsofmeasurement-github-repo</id>
@@ -484,4 +489,5 @@
 			</plugin> <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-jar-plugin</artifactId> 
 			</plugin> </plugins -->
 	</build>
+	<url>http://unitsofmeasurement.github.io/</url>
 </project>
