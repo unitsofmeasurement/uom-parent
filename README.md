@@ -1,4 +1,4 @@
-unitsofmeasurement-parent
+uom-parent
 =========================
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/tec.uom/uom-parent/badge.svg)](https://maven-badges.herokuapp.com/maven-central/tec.uom/uom-parent)
 [![Circle CI](https://circleci.com/gh/unitsofmeasurement/uom-parent.svg?style=svg)](https://circleci.com/gh/unitsofmeasurement/uom-parent) 
