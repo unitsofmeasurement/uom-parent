@@ -24,13 +24,13 @@
 	</licenses>
 	<inceptionYear>2005</inceptionYear>
 	<url>http://unitsofmeasurement.github.io/</url>
-    <scm>
-        <connection>scm:git:https://github.com/unitsofmeasurement/uom-parent.git</connection>
-        <developerConnection>scm:git:https://github.com/unitsofmeasurement/uom-parent.git</developerConnection>
-        <url>https://github.com/unitsofmeasurement/uom-parent.git</url>
-    </scm>
+	<scm>
+		<connection>scm:git:https://github.com/unitsofmeasurement/uom-parent.git</connection>
+		<developerConnection>scm:git:https://github.com/unitsofmeasurement/uom-parent.git</developerConnection>
+		<url>https://github.com/unitsofmeasurement/uom-parent.git</url>
+	</scm>
 	<properties>
-		<jsr.version>0.8-RC3</jsr.version>
+		<jsr.version>0.8-RC3</jsr.version> <!-- Using Milestone/Stable build here -->
 		<proj.version>${project.version}</proj.version>
 		<sourceEncoding>UTF-8</sourceEncoding> <!-- in Maven 3. -->
 		<project.build.sourceEncoding>${sourceEncoding}</project.build.sourceEncoding>
@@ -210,14 +210,32 @@
 	<!-- Additional repositories -->
 	<repositories>
 		<repository>
-			<id>geotoolkit</id>
-			<name>Geotoolkit.org project</name>
-			<url>http://maven.geotoolkit.org</url>
-		</repository>
-		<repository>
 			<id>jcenter</id>
 			<name>JCenter</name>
 			<url>http://jcenter.bintray.com</url>
+		</repository>
+		<repository>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<id>bintray-release</id>
+			<name>libs-release</name>
+			<url>http://oss.jfrog.org/artifactory/libs-release</url>
+		</repository>
+		<repository>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<id>bintray-snapshot</id>
+			<name>libs-snapshot</name>
+			<url>http://oss.jfrog.org/artifactory/libs-snapshot</url>
+		</repository>
+
+		<!-- Project specific -->
+		<repository>
+			<id>geotoolkit</id>
+			<name>Geotoolkit.org project</name>
+			<url>http://maven.geotoolkit.org</url>
 		</repository>
 		<repository>
 			<id>bintray-uom</id>
@@ -233,11 +251,18 @@
 
 	<!-- Deployment to public servers -->
 	<distributionManagement>
+		<repository>
+			<id>bintray-release</id>
+			<name>oss-jfrog-artifactory-release</name>
+			<url>https://oss.jfrog.org/artifactory/oss-release-local</url>
+		</repository>
 		<snapshotRepository>
-			<id>geotoolkit</id>
-			<name>Maven repository for snapshots only</name>
-			<url>file:///var/www/maven.geotoolkit.org</url>
+			<id>bintray-snapshot</id>
+			<name>oss-jfrog-artifactory-snapshot</name>
+			<url>https://oss.jfrog.org/artifactory/oss-snapshot-local</url>
 		</snapshotRepository>
+		<!-- <snapshotRepository> <id>geotoolkit</id> <name>Maven repository for 
+			snapshots only</name> <url>file:///var/www/maven.geotoolkit.org</url> </snapshotRepository> -->
 	</distributionManagement>
 
 	<!-- Dependency Management -->
@@ -338,23 +363,10 @@
 						<additionalparam>-Xdoclint:none</additionalparam>
 					</configuration>
 				</plugin>
-			<!--  	
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-source-plugin</artifactId>
-					<version>2.4</version>
-					<executions>
-						<execution>
-							<id>attach-sources</id>
-							<phase>package</phase>
-							<goals>
-								<goal>jar-no-fork</goal>
-							</goals>
-						</execution>
-					</executions>
-				</plugin>
-				-->
-				
+				<!-- <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-source-plugin</artifactId> 
+					<version>2.4</version> <executions> <execution> <id>attach-sources</id> <phase>package</phase> 
+					<goals> <goal>jar-no-fork</goal> </goals> </execution> </executions> </plugin> -->
+
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
