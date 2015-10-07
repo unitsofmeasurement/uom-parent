@@ -30,7 +30,7 @@
 		<url>https://github.com/unitsofmeasurement/uom-parent.git</url>
 	</scm>
 	<properties>
-		<jsr.version>0.8-RC3</jsr.version> <!-- Using Milestone/Stable build here -->
+		<jsr.version>0.8-SNAPSHOT</jsr.version> <!-- Using Milestone/Stable build here -->
 		<proj.version>${project.version}</proj.version>
 		<sourceEncoding>UTF-8</sourceEncoding> <!-- in Maven 3. -->
 		<project.build.sourceEncoding>${sourceEncoding}</project.build.sourceEncoding>
