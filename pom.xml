@@ -36,7 +36,7 @@
 		<project.build.sourceEncoding>${sourceEncoding}</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>${sourceEncoding}</project.reporting.outputEncoding>
 		<!-- dependency versions -->
-		<junit.version>4.11</junit.version>
+		<junit.version>4.12</junit.version>
 		<slf4j.version>1.6.1</slf4j.version>
 		<additionalparam>-Xdoclint:none</additionalparam>
 	</properties>
@@ -261,8 +261,6 @@
 			<name>oss-jfrog-artifactory-snapshot</name>
 			<url>https://oss.jfrog.org/artifactory/oss-snapshot-local</url>
 		</snapshotRepository>
-		<!-- <snapshotRepository> <id>geotoolkit</id> <name>Maven repository for 
-			snapshots only</name> <url>file:///var/www/maven.geotoolkit.org</url> </snapshotRepository> -->
 	</distributionManagement>
 
 	<!-- Dependency Management -->
@@ -376,7 +374,7 @@
 					</executions>
 					<configuration>
 						<detectLinks>true</detectLinks>
-						<!-- excludePackageNames>blabla</excludePackageNames -->
+						<!-- excludePackageNames>bar</excludePackageNames -->
 						<keywords>true</keywords>
 						<linksource>true</linksource>
 						<!-- overview>${basedir}/overview.html</overview -->
