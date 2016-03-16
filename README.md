@@ -9,6 +9,15 @@ uom-parent
 
 Units of Measurement Project Parent POM
 
-An open-sourced parent POM that Units of Measurement uses to unify top-level concerns across code bases (e.g. Java compiler version)
+This is the main parent `pom` for all Units of Measurement Maven projects.
 
-The only configuration that should be found in this pom is configuration that should be true for all Units of Measurement artifacts
+|                 | Project Info  |
+| --------------- | ------------- |
+| License:        | BSD 3-clause  |
+| Build:          | Maven  |
+| Documentation:  | https://aerogear.org/docs/  |
+| Issue tracker:  | https://java.net/jira/browse/UNITSOFMEASUREMENT  |
+| Mailing lists:  | [units-users](http://groups.google.com/group/units-users/) ([subscribe](http://groups.google.com/group/units-users/subscribe))  |
+|                 | [units-dev](http://groups.google.com/group/units-dev/) ([subscribe](http://groups.google.com/group/units-dev/subscribe))  |
+
+The only configuration that should be found in this  `pom` is configuration that should be true for all Units of Measurement artifacts
