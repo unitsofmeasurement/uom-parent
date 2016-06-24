@@ -385,7 +385,9 @@
 						<source>${project.build.sourceCompilerLevel}</source>
 						<!-- stylesheetfile>${basedir}/src/site/css/money-jdoc.css</stylesheetfile -->
 						<verbose>true</verbose>
+						<!-- only for Java SE 8+ builds, apply there if required
 						<additionalparam>-Xdoclint:none</additionalparam>
+						-->
 					</configuration>
 				</plugin>
 				<!-- <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-source-plugin</artifactId> 
