@@ -254,21 +254,21 @@
 		</repository>
 
 		<!-- Project specific -->
-		<repository>
+		<!-- >repository>
 			<id>geotoolkit</id>
 			<name>Geotoolkit.org project</name>
 			<url>http://maven.geotoolkit.org</url>
-		</repository>
+		</repository -->
 		<repository>
 			<id>bintray-uom</id>
 			<name>Bintray Units of Measurement</name>
 			<url>http://dl.bintray.com/unitsofmeasurement/maven</url>
 		</repository>
-		<repository>
+		<!--  >repository>
 			<id>unitsofmeasurement-github-repo</id>
 			<name>Local repository for Unit-API or other Units of Measurement snapshots</name>
 			<url>https://github.com/unitsofmeasurement/repository/raw/master</url>
-		</repository>
+		</repository -->
 	</repositories>
 
 	<!-- Deployment to public servers -->
