@@ -30,7 +30,7 @@
 		<url>https://github.com/unitsofmeasurement/uom-parent.git</url>
 	</scm>
 	<properties>
-		<jsr.version>1.0-SNAPSHOT</jsr.version>
+		<jsr.version>1.0</jsr.version>
 		<proj.version>${project.version}</proj.version>
 		<sourceEncoding>UTF-8</sourceEncoding> <!-- in Maven 3. -->
 		<project.build.sourceEncoding>${sourceEncoding}</project.build.sourceEncoding>
@@ -89,7 +89,7 @@
 		<developer>
 			<id>desruisseaux</id>
 			<name>Martin Desruisseaux</name>
-			<email>desruisseaux@users.sourceforge.net</email>
+			<email>martin.desruisseaux@geomatys.com</email>
 			<organization>Geomatys</organization>
 			<organizationUrl>http://www.geomatys.com</organizationUrl>
 			<timezone>+1</timezone>
@@ -122,7 +122,7 @@
 		</developer>
 		<developer>
 			<id>eralmas7</id>
-			<name>Muhammed Almas</name>
+			<name>Almas Shaikh</name>
 			<email>eralmas7@yahoo.com</email>
 			<organization>Individual</organization>
 			<roles>
