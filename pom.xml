@@ -163,7 +163,6 @@
 
 	<contributors>
 		<contributor>
-			<!-- >id>dan.leuck</id -->
 			<name>Daniel Leuck</name>
 			<email>dan@ikayzo.com</email>
 			<organization>Ikayzo</organization>
@@ -182,7 +181,6 @@
 			</roles>
 		</contributor>
 		<contributor>
-			<!-- id>paul.morrison</id -->
 			<name>John Paul Morrison</name>
 			<organization>J.P. Morrison Enterprises, Ltd.</organization>
 			<timezone>-5</timezone>
@@ -219,7 +217,6 @@
 			</roles>
 		</contributor>
 		<contributor>
-			<!-- id>mgruebsch</id -->
 			<name>Michael Gruebsch</name>
 			<email>michael@mkm-rabis.de</email>
 			<roles>
@@ -264,11 +261,6 @@
 			<name>Bintray Units of Measurement</name>
 			<url>http://dl.bintray.com/unitsofmeasurement/maven</url>
 		</repository>
-		<!--  >repository>
-			<id>unitsofmeasurement-github-repo</id>
-			<name>Local repository for Unit-API or other Units of Measurement snapshots</name>
-			<url>https://github.com/unitsofmeasurement/repository/raw/master</url>
-		</repository -->
 	</repositories>
 
 	<!-- Deployment to public servers -->
