@@ -14,7 +14,7 @@ This is the main parent `pom` for all Units of Measurement Maven projects.
 | --------------- | ------------- |
 | License:        | BSD 3-clause  |
 | Build:          | Maven  |
-| Documentation:  | https://java.net/projects/unitsofmeasurement/downloads  |
+| Documentation:  | https://bintray.com/unitsofmeasurement/generic  |
 | Issue tracker:  | https://java.net/jira/browse/UNITSOFMEASUREMENT  |
 | Mailing lists:  | [units-users](http://groups.google.com/group/units-users/) ([subscribe](http://groups.google.com/group/units-users/subscribe))  |
 |                 | [units-dev](http://groups.google.com/group/units-dev/) ([subscribe](http://groups.google.com/group/units-dev/subscribe))  |
