@@ -38,7 +38,7 @@
 		<!-- dependency versions -->
 		<junit.version>4.12</junit.version>
 		<slf4j.version>1.6.1</slf4j.version>
-		<maven-compiler.version>3.5.1</maven-compiler.version>
+		<maven-compiler.version>3.6.0</maven-compiler.version>
 		<maven-site.version>3.5.1</maven-site.version>
 		<!--  
 		<additionalparam>-Xdoclint:none</additionalparam>
@@ -172,7 +172,6 @@
 			</roles>
 		</contributor>
 		<contributor>
-			<!-- id>eric-r</id -->
 			<name>Eric Russell</name>
 			<email>eric-r@northwestern.edu</email>
 			<timezone>-5</timezone>
