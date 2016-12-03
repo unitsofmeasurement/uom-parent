@@ -39,7 +39,7 @@
 		<junit.version>4.12</junit.version>
 		<slf4j.version>1.6.1</slf4j.version>
 		<maven-compiler.version>3.6.0</maven-compiler.version>
-		<maven-site.version>3.5.1</maven-site.version>
+		<maven-site.version>3.6</maven-site.version>
 		<!--  
 		<additionalparam>-Xdoclint:none</additionalparam>
 		-->
@@ -248,13 +248,6 @@
 			<name>libs-snapshot</name>
 			<url>http://oss.jfrog.org/artifactory/libs-snapshot</url>
 		</repository>
-
-		<!-- Project specific -->
-		<!-- >repository>
-			<id>geotoolkit</id>
-			<name>Geotoolkit.org project</name>
-			<url>http://maven.geotoolkit.org</url>
-		</repository -->
 		<repository>
 			<id>bintray-uom</id>
 			<name>Bintray Units of Measurement</name>
