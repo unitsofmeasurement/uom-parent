@@ -43,7 +43,7 @@
 		<!--  
 		<additionalparam>-Xdoclint:none</additionalparam>
 		-->
-		<jacoco.plugin.version>0.7.7.201606060606</jacoco.plugin.version>
+		<jacoco.plugin.version>0.7.8</jacoco.plugin.version>
 	</properties>
 
 	<!-- Developers and Contributors -->
