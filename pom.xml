@@ -453,7 +453,7 @@
 				<plugin>
 					<groupId>org.bsc.maven</groupId>
 					<artifactId>maven-processor-plugin</artifactId>
-					<version>3.2.0</version>
+					<version>3.3.1</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -462,8 +462,7 @@
 					<configuration>
 						<useSystemClassLoader>true</useSystemClassLoader>
 						<skipTests>false</skipTests>
-						<trimStackTrace>false</trimStackTrace>
-						<testFailureIgnore>true</testFailureIgnore>
+						<trimStackTrace>false</trimStackTrace>						
 						<forkMode>once</forkMode>
 						<includes>
 							<include>**/*Test.java</include>
