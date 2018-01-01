@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>tec.uom</groupId>
 	<artifactId>uom-parent</artifactId>
-	<version>1.0.5</version>
+	<version>1.0.6-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Units of Measurement parent</name>
 	<description>Units of Measurement Project Parent POM</description>
@@ -350,7 +350,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-javadoc-plugin</artifactId>
-					<version>2.10.4</version>
+					<version>3.0.0</version>
 					<executions>
 						<execution>
 							<id>attach-javadocs</id>
@@ -484,7 +484,7 @@
 				<plugin>
 					<groupId>org.apache.felix</groupId>
 					<artifactId>maven-bundle-plugin</artifactId>
-					<version>3.3.0</version>
+					<version>3.4.0</version>
 					<extensions>true</extensions>
 				</plugin>
 				<plugin>
