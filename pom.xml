@@ -1,9 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>tec.uom</groupId>
+	<groupId>tech.uom</groupId>
 	<artifactId>uom-parent</artifactId>
-	<version>1.0.6-SNAPSHOT</version>
+	<version>1.1</version>
 	<packaging>pom</packaging>
 	<name>Units of Measurement parent</name>
 	<description>Units of Measurement Project Parent POM</description>
@@ -30,9 +30,9 @@
 		<url>https://github.com/unitsofmeasurement/uom-parent.git</url>
 	</scm>
 	<properties>
-		<jsr.version>1.0</jsr.version>
+		<jsr.version>2.0-SNAPSHOT</jsr.version>
 		<proj.version>${project.version}</proj.version>
-		<sourceEncoding>UTF-8</sourceEncoding> <!-- in Maven 3. -->
+		<sourceEncoding>UTF-8</sourceEncoding>
 		<project.build.sourceEncoding>${sourceEncoding}</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>${sourceEncoding}</project.reporting.outputEncoding>
 		<!-- dependency versions -->
@@ -40,9 +40,6 @@
 		<slf4j.version>1.6.1</slf4j.version>
 		<maven-compiler.version>3.7.0</maven-compiler.version>
 		<maven-site.version>3.6</maven-site.version>
-		<!--  
-		<additionalparam>-Xdoclint:none</additionalparam>
-		-->
 		<jacoco.plugin.version>0.7.9</jacoco.plugin.version>
 	</properties>
 
@@ -74,14 +71,14 @@
 				<role>Spec Lead</role>
 			</roles>
 		</developer>
-		<developer>
-			<name>Leonardo de Moura Rocha Lima</name>
-			<email>llima@v2com.mobi</email>
-			<organization>V2COM</organization>
-			<organizationUrl>http://www.v2com.mobi/</organizationUrl>
+			<developer>
+			<id>otaviojava</id>
+			<name>Otávio Gonçalves de Santana</name>
+			<email>otaviopolianasantana@gmail.com</email>
+			<organization>Individual / SouJava</organization>
 			<timezone>-5</timezone>
 			<roles>
-				<role>Architect</role>
+				<role>Expert</role>
 				<role>Java Developer</role>
 				<role>Spec Lead</role>
 			</roles>
@@ -97,17 +94,6 @@
 				<role>Expert</role>
 				<role>Java Developer</role>
 				<role>Jenkins Admin</role>
-			</roles>
-		</developer>
-		<developer>
-			<id>otaviojava</id>
-			<name>Otávio Gonçalves de Santana</name>
-			<email>otaviopolianasantana@gmail.com</email>
-			<organization>Individual / SouJava</organization>
-			<timezone>-5</timezone>
-			<roles>
-				<role>Expert</role>
-				<role>Java Developer</role>
 			</roles>
 		</developer>
 		<developer>
@@ -150,18 +136,28 @@
 				<role>Expert</role>
 			</roles>
 		</developer>
-		<developer>
-			<id>mohamed-taman</id>
+	</developers>
+
+	<contributors>
+		<contributor>
+			<name>Leonardo de Moura Rocha Lima</name>
+			<email>llima@v2com.mobi</email>
+			<organization>V2COM</organization>
+			<organizationUrl>http://www.v2com.mobi/</organizationUrl>
+			<timezone>-5</timezone>
+			<roles>
+				<role>Spec Lead Emeritus</role>
+				<role>Java Developer</role>
+			</roles>
+		</contributor>
+		<contributor>
 			<name>Mohamed Mahmoud Taman</name>
 			<email>mohamed.taman@gmail.com</email>
 			<organization>efinance</organization>
 			<roles>
-				<role>Expert</role>
+				<role>Supporter</role>
 			</roles>
-		</developer>
-	</developers>
-
-	<contributors>
+		</contributor>
 		<contributor>
 			<name>Daniel Leuck</name>
 			<email>dan@ikayzo.com</email>
