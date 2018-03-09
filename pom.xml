@@ -32,7 +32,7 @@
 	<properties>
 		<jsr.version>1.0</jsr.version>
 		<proj.version>${project.version}</proj.version>
-		<sourceEncoding>UTF-8</sourceEncoding> <!-- in Maven 3. -->
+		<sourceEncoding>UTF-8</sourceEncoding>
 		<project.build.sourceEncoding>${sourceEncoding}</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>${sourceEncoding}</project.reporting.outputEncoding>
 		<!-- dependency versions -->
