@@ -19,3 +19,10 @@ This is the main parent `pom` for all Units of Measurement Maven projects.
 |                 | [units-dev](http://groups.google.com/group/units-dev/) ([subscribe](http://groups.google.com/group/units-dev/subscribe))  |
 
 The only configuration that should be found in this  `pom` is configuration that should be true for all Units of Measurement artifacts
+
+---
+**NOTE**
+
+Starting with release **1.1** the groupId of this Parent POM changes from a "virtual" domain name space **tec.uom** to **tech.uom**. Laying the ground for the 2.x releases.
+
+---
