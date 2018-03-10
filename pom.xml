@@ -6,6 +6,7 @@
 	<packaging>pom</packaging>
 	<name>Units of Measurement Parent</name>
 	<description>Units of Measurement Project Parent POM</description>
+	<version>2.0-SNAPSHOT</version>
 	<organization>
 		<name>Units of Measurement</name>
 		<url>http://unitsofmeasurement.github.io/</url>
@@ -29,7 +30,7 @@
 		<url>https://github.com/unitsofmeasurement/uom-parent.git</url>
 	</scm>
 	<properties>
-		<jsr.version>1.0</jsr.version>
+		<jsr.version>2.0-SNAPSHOT</jsr.version>
 		<proj.version>${project.version}</proj.version>
 		<sourceEncoding>UTF-8</sourceEncoding>
 		<project.build.sourceEncoding>${sourceEncoding}</project.build.sourceEncoding>
@@ -504,5 +505,4 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-	<version>1.2</version>
 </project>
