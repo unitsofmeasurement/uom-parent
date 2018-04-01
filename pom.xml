@@ -71,7 +71,7 @@
 				<role>Spec Lead</role>
 			</roles>
 		</developer>
-			<developer>
+		<developer>
 			<id>otaviojava</id>
 			<name>Otávio Gonçalves de Santana</name>
 			<email>otaviopolianasantana@gmail.com</email>
@@ -93,7 +93,6 @@
 			<roles>
 				<role>Expert</role>
 				<role>Java Developer</role>
-				<role>Jenkins Admin</role>
 			</roles>
 		</developer>
 		<developer>
@@ -104,36 +103,6 @@
 			<roles>
 				<role>Expert</role>
 				<role>Java Developer</role>
-			</roles>
-		</developer>
-		<developer>
-			<id>eralmas7</id>
-			<name>Almas Shaikh</name>
-			<email>eralmas7@yahoo.com</email>
-			<organization>Individual</organization>
-			<roles>
-				<role>Expert</role>
-				<role>Java Developer</role>
-			</roles>
-		</developer>
-		<developer>
-			<id>karen_legrand</id>
-			<name>Karen Legrand</name>
-			<email>karen.legrand@iem.com</email>
-			<organization>Innovation Emergency Management (IEM)</organization>
-			<organizationUrl>http://www.iem.com</organizationUrl>
-			<timezone>-5</timezone>
-			<roles>
-				<role>Expert</role>
-			</roles>
-		</developer>
-		<developer>
-			<id>rajmahendra</id>
-			<name>Rajmahendra Hegde</name>
-			<email>rajmahendra@gmail.com</email>
-			<organization>JUG Chennai</organization>
-			<roles>
-				<role>Expert</role>
 			</roles>
 		</developer>
 	</developers>
@@ -148,6 +117,33 @@
 			<roles>
 				<role>Spec Lead Emeritus</role>
 				<role>Java Developer</role>
+			</roles>
+		</contributor>
+		<contributor>
+			<name>Almas Shaikh</name>
+			<email>eralmas7@yahoo.com</email>
+			<organization>Individual</organization>
+			<roles>
+				<role>Adopter</role>
+				<role>Java Developer</role>
+			</roles>
+		</contributor>
+		<contributor>
+			<name>Karen Legrand</name>
+			<email>karen.legrand@iem.com</email>
+			<organization>Innovation Emergency Management (IEM)</organization>
+			<organizationUrl>http://www.iem.com</organizationUrl>
+			<timezone>-5</timezone>
+			<roles>
+				<role>Expert Emeritus</role>
+			</roles>
+		</contributor>
+		<contributor>
+			<name>Rajmahendra Hegde</name>
+			<email>rajmahendra@gmail.com</email>
+			<organization>JUG Chennai</organization>
+			<roles>
+				<role>Adopter</role>
 			</roles>
 		</contributor>
 		<contributor>
@@ -454,7 +450,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-surefire-plugin</artifactId>
-					<version>2.20.1</version>
+					<version>2.21.0</version>
 					<configuration>
 						<useSystemClassLoader>true</useSystemClassLoader>
 						<skipTests>false</skipTests>
@@ -467,6 +463,11 @@
 							<exclude>**/Abstract*.java</exclude>
 						</excludes>
 					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-report-plugin</artifactId>
+					<version>2.21.0</version>
 				</plugin>
 				<plugin>
 					<artifactId>maven-release-plugin</artifactId>
