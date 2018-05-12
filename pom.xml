@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>tec.uom</groupId>
 	<artifactId>uom-parent</artifactId>
-	<version>1.0.6-SNAPSHOT</version>
+	<version>1.0.6</version>
 	<packaging>pom</packaging>
 	<name>Units of Measurement parent</name>
 	<description>Units of Measurement Project Parent POM</description>
@@ -40,10 +40,7 @@
 		<slf4j.version>1.6.1</slf4j.version>
 		<maven-compiler.version>3.7.0</maven-compiler.version>
 		<maven-site.version>3.6</maven-site.version>
-		<!--  
-		<additionalparam>-Xdoclint:none</additionalparam>
-		-->
-		<jacoco.plugin.version>0.7.9</jacoco.plugin.version>
+		<jacoco.plugin.version>0.8.1</jacoco.plugin.version>
 	</properties>
 
 	<!-- Developers and Contributors -->
