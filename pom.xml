@@ -59,7 +59,7 @@
 			</roles>
 		</developer>
 		<developer>
-			<id>werner.keil</id>
+			<id>keilw</id>
 			<name>Werner Keil</name>
 			<email>werner@catmedia.us</email>
 			<organization>Creative Arts &amp; Technologies</organization>
@@ -311,6 +311,7 @@
 					</executions>
 					<configuration>
 						<excludes>
+							<exclude>.circleci/**</exclude>
 							<exclude>pom.xml</exclude>
 							<exclude>**/README</exclude>
 							<exclude>**/settings.xml</exclude>
