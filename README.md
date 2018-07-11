@@ -2,8 +2,8 @@ uom-parent
 =========================
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/tech.uom/uom-parent/badge.svg)](https://maven-badges.herokuapp.com/maven-central/tech.uom/uom-parent)
 [![Circle CI](https://circleci.com/gh/unitsofmeasurement/uom-parent.svg?style=svg)](https://circleci.com/gh/unitsofmeasurement/uom-parent) 
+[![Stability: Sustained](https://masterminds.github.io/stability/sustained.svg)](https://masterminds.github.io/stability/sustained.html)
 [![License](http://img.shields.io/badge/license-BSD3-blue.svg?style=flat-square)](http://opensource.org/licenses/BSD-3-Clause)
-[![Dependency Status](https://www.versioneye.com/user/projects/57711d32671894004fedd52b/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/57711d32671894004fedd52b)
 
 Units of Measurement Project Parent POM
 
