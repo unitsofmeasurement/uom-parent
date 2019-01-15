@@ -30,7 +30,7 @@
 		<url>https://github.com/unitsofmeasurement/uom-parent.git</url>
 	</scm>
 	<properties>
-		<jsr.version>2.0-EDR</jsr.version>
+		<jsr.version>2.0-SNAPSHOT</jsr.version>
 		<proj.version>${project.version}</proj.version>
 		<sourceEncoding>UTF-8</sourceEncoding>
 		<project.build.sourceEncoding>${sourceEncoding}</project.build.sourceEncoding>
@@ -40,7 +40,7 @@
 		<slf4j.version>1.6.1</slf4j.version>
 		<maven-compiler.version>3.7.0</maven-compiler.version>
 		<maven-site.version>3.6</maven-site.version>
-		<jacoco.plugin.version>0.8.1</jacoco.plugin.version>
+		<jacoco.plugin.version>0.8.2</jacoco.plugin.version>
 	</properties>
 
 	<!-- Developers and Contributors -->
@@ -95,16 +95,58 @@
 				<role>Java Developer</role>
 			</roles>
 		</developer>
-		<developer>
-			<id>duckasteroid</id>
-			<name>Chris Senior</name>
-			<email>christopher.senior@gmail.com</email>
-			<organization>Snap-on Inc.</organization>
-			<roles>
-				<role>Expert</role>
-				<role>Java Developer</role>
-			</roles>
-		</developer>
+	        <developer>
+            <id>thodorisbais</id>
+            <name>Thodoris Bais</name>
+            <email>thodoris.bais@gmail.com</email>
+            <organization>Individual / Utrecht JUG</organization>
+            <timezone>+1</timezone>
+            <roles>
+                <role>Expert</role>
+                <role>Java Developer</role>
+            </roles>
+        </developer>
+        <developer>
+            <id>Daniel-Dos</id>
+            <name>Daniel Dias</name>
+            <email>daniel.dias.analistati@gmail.com</email>
+            <organization>Individual / SouJava</organization>
+            <timezone>-5</timezone>
+            <roles>
+                <role>Expert</role>
+                <role>Java Developer</role>
+            </roles>
+        </developer>
+        <developer>
+            <id>duckasteroid</id>
+            <name>Chris Senior</name>
+            <email>christopher.senior@gmail.com</email>
+            <organization>Snap-on Inc.</organization>
+            <roles>
+                <role>Expert</role>
+                <role>Java Developer</role>
+            </roles>
+        </developer>
+        <developer>
+            <id>jhg023</id>
+            <name>Jacob Glickman</name>
+            <organization>Individual</organization>
+            <timezone>-4</timezone>
+            <roles>
+                <role>Expert</role>
+                <role>Java Developer</role>
+            </roles>
+        </developer>
+        <developer>
+            <id>magesh678</id>
+            <name>Magesh Kasthuri</name>
+            <organization>Individual</organization>
+            <timezone>+4</timezone>
+            <roles>
+                <role>Expert</role>
+                <role>Java Developer</role>
+            </roles>
+        </developer>
 	</developers>
 
 	<contributors>
