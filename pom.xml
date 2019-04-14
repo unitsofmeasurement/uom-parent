@@ -6,7 +6,7 @@
 	<packaging>pom</packaging>
 	<name>Units of Measurement Parent</name>
 	<description>Units of Measurement Project Parent POM</description>
-	<version>1.3</version>
+	<version>1.4-SNAPSHOT</version>
 	<organization>
 		<name>Units of Measurement</name>
 		<url>http://unitsofmeasurement.github.io/</url>
