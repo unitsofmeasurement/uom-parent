@@ -1,6 +1,6 @@
 uom-parent
 =========================
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/tech.uom/uom-parent/badge.svg)](https://maven-badges.herokuapp.com/maven-central/tech.uom/uom-parent)
+[![Download](https://api.bintray.com/packages/unitsofmeasurement/maven/tech.uom%3Auom-parent/images/download.svg)](https://bintray.com/unitsofmeasurement/maven/tech.uom%3Auom-parent/_latestVersion)(https://maven-badges.herokuapp.com/maven-central/tech.uom/uom-parent)
 [![Circle CI](https://circleci.com/gh/unitsofmeasurement/uom-parent.svg?style=svg)](https://circleci.com/gh/unitsofmeasurement/uom-parent) 
 [![Stability: Sustained](https://masterminds.github.io/stability/sustained.svg)](https://masterminds.github.io/stability/sustained.html)
 [![License](http://img.shields.io/badge/license-BSD3-blue.svg?style=flat-square)](http://opensource.org/licenses/BSD-3-Clause)
