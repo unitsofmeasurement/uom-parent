@@ -41,7 +41,8 @@
 		<junit.jupiter.version>5.5.0</junit.jupiter.version>
 		<slf4j.version>1.7.26</slf4j.version>
 		<maven-compiler.version>3.8.1</maven-compiler.version>
-		<maven-site.version>3.6</maven-site.version>
+		<maven.jar.version>3.1.0</maven.jar.version>
+		<maven.site.version>3.6</maven.site.version>
 		<jacoco.plugin.version>0.8.3</jacoco.plugin.version>
 	</properties>
 
@@ -478,7 +479,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-jar-plugin</artifactId>
-					<version>3.0.2</version>
+					<version>${maven.jar.version}</version>
 					<executions>
 						<execution>
 							<goals>
@@ -567,7 +568,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-site-plugin</artifactId>
-					<version>${maven-site.version}</version>
+					<version>${maven.site.version}</version>
 				</plugin>
 				<plugin>
 					<groupId>org.jacoco</groupId>
