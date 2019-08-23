@@ -40,7 +40,7 @@
 		<junit.version>4.12</junit.version>
 		<junit.jupiter.version>5.5.0</junit.jupiter.version>
 		<slf4j.version>1.7.26</slf4j.version>
-		<maven-compiler.version>3.8.1</maven-compiler.version>
+		<maven.compiler.version>3.8.1</maven.compiler.version>
 		<maven.jar.version>3.1.0</maven.jar.version>
 		<maven.site.version>3.6</maven.site.version>
 		<jacoco.plugin.version>0.8.3</jacoco.plugin.version>
@@ -448,7 +448,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
-					<version>${maven-compiler.version}</version>
+					<version>${maven.compiler.version}</version>
 					<configuration>
 						<debug>true</debug>
 						<optimize>true</optimize>
