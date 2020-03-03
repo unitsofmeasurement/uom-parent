@@ -44,7 +44,7 @@
 		<maven.jar.version>3.1.2</maven.jar.version>
 		<maven.site.version>3.8.2</maven.site.version>
 		<maven.surefire.version>2.20.1</maven.surefire.version><!-- every Surefire version above 2.20 is currently BUGGY, do not use yet -->
-		<jacoco.plugin.version>0.8.6-SNAPSHOT</jacoco.plugin.version>
+		<jacoco.plugin.version>0.8.5</jacoco.plugin.version>
 	</properties>
 
 	<!-- Developers and Contributors -->
