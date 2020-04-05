@@ -1,6 +1,6 @@
 uom-parent
 =========================
-[![Download](https://api.bintray.com/packages/unitsofmeasurement/maven/tech.uom%3Auom-parent/images/download.svg)](https://bintray.com/unitsofmeasurement/maven/tech.uom%3Auom-parent/_latestVersion)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/tech.uom/uom-parent/badge.svg)](https://maven-badges.herokuapp.com/maven-central/tech.uom/uom-parent)
 [![Circle CI](https://circleci.com/gh/unitsofmeasurement/uom-parent.svg?style=svg)](https://circleci.com/gh/unitsofmeasurement/uom-parent) 
 [![Stability: Sustained](https://masterminds.github.io/stability/sustained.svg)](https://masterminds.github.io/stability/sustained.html)
 [![License](http://img.shields.io/badge/license-BSD3-blue.svg?style=flat-square)](http://opensource.org/licenses/BSD-3-Clause)
@@ -23,6 +23,6 @@ The only configuration that should be found in this  `pom` is configuration that
 ---
 **NOTE**
 
-Starting with release **1.1** the groupId of this Parent POM changes from a "virtual" domain **tec.uom** to **tech.uom**. Laying the ground for the 2.x releases.
+Starting with release **1.1** the groupId of this Parent POM changes from  **tec.uom** to **tech.uom**. Laying the ground for the 2.x releases.
 
 ---
