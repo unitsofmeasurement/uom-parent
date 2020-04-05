@@ -6,7 +6,7 @@
 	<packaging>pom</packaging>
 	<name>Units of Measurement Parent</name>
 	<description>Units of Measurement Project Parent POM</description>
-	<version>1.4-SNAPSHOT</version>
+	<version>1.4</version>
 	<organization>
 		<name>Units of Measurement</name>
 		<url>http://unitsofmeasurement.github.io/</url>
@@ -23,7 +23,7 @@
 		</license>
 	</licenses>
 	<inceptionYear>2005</inceptionYear>
-	<url>http://unitsofmeasurement.github.io/</url>
+	<url>https://unitsofmeasurement.github.io/</url>
 	<scm>
 		<connection>scm:git:https://github.com/unitsofmeasurement/uom-parent.git</connection>
 		<developerConnection>scm:git:https://github.com/unitsofmeasurement/uom-parent.git</developerConnection>
@@ -119,16 +119,6 @@
             </roles>
         </developer>
         <developer>
-            <id>duckasteroid</id>
-            <name>Chris Senior</name>
-            <email>christopher.senior@gmail.com</email>
-            <organization>Snap-on Inc.</organization>
-            <roles>
-                <role>Expert</role>
-                <role>Java Developer</role>
-            </roles>
-        </developer>
-        <developer>
             <id>jhg023</id>
             <name>Jacob Glickman</name>
             <organization>Individual</organization>
@@ -151,6 +141,16 @@
 	</developers>
 
 	<contributors>
+	     <contributor>
+            <!-- id>duckasteroid</id -->
+            <name>Chris Senior</name>
+            <email>christopher.senior@gmail.com</email>
+            <organization>Snap-on Inc.</organization>
+            <roles>
+                <role>Expert Emeritus</role>
+                <role>Java Developer</role>
+            </roles>
+        </contributor>
 		<contributor>
 			<name>Leonardo de Moura Rocha Lima</name>
 			<email>llima@v2com.mobi</email>
