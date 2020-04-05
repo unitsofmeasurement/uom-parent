@@ -40,7 +40,8 @@
 		<slf4j.version>1.6.1</slf4j.version>
 		<maven-compiler.version>3.7.0</maven-compiler.version>
 		<maven-site.version>3.6</maven-site.version>
-		<jacoco.plugin.version>0.8.2</jacoco.plugin.version>
+		<maven-surefire.version>2.22.2</maven-surefire.version>
+		<jacoco.plugin.version>0.8.5</jacoco.plugin.version>
 	</properties>
 
 	<!-- Developers and Contributors -->
@@ -493,7 +494,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-surefire-plugin</artifactId>
-					<version>2.21.0</version>
+					<version>${maven-surefire.version}</version>
 					<configuration>
 						<useSystemClassLoader>true</useSystemClassLoader>
 						<skipTests>false</skipTests>
@@ -510,7 +511,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-surefire-report-plugin</artifactId>
-					<version>2.21.0</version>
+					<version>${maven-surefire.version}</version>
 				</plugin>
 				<plugin>
 					<artifactId>maven-release-plugin</artifactId>
