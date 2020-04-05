@@ -23,6 +23,7 @@ The only configuration that should be found in this  `pom` is configuration that
 ---
 **NOTE**
 
-Starting with release **1.1** the groupId of this Parent POM changes from  **tec.uom** to **tech.uom**. Laying the ground for the 2.x releases.
+Starting with release **1.1** the groupId of this Parent POM changes from  **tec.uom** to **tech.uom**.
+Laying the ground for the 2.x releases.
 
 ---
