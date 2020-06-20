@@ -7,7 +7,7 @@
 	<packaging>pom</packaging>
 	<name>Units of Measurement Parent</name>
 	<description>Units of Measurement Project Parent POM</description>
-	<version>2.0.3-SNAPSHOT</version>
+	<version>2.0.3</version>
 	<organization>
 		<name>Units of Measurement</name>
 		<url>https://unitsofmeasurement.github.io/</url>
@@ -19,8 +19,8 @@
 	</parent>
 	<licenses>
 		<license>
-			<name>BSD</name>
-			<url>http://opensource.org/licenses/BSD-3-Clause</url>
+			<name>BSD 3-Clause</name>
+			<url>https://opensource.org/licenses/BSD-3-Clause</url>
 		</license>
 	</licenses>
 	<inceptionYear>2005</inceptionYear>
@@ -58,7 +58,7 @@
 			<name>Jean-Marie Dautelle</name>
 			<email>jean-marie@dautelle.com</email>
 			<organization>Airbus</organization>
-			<organizationUrl>http://www.airbus.com</organizationUrl>
+			<organizationUrl>https://www.airbus.com</organizationUrl>
 			<timezone>+1</timezone>
 			<roles>
 				<role>Architect</role>
@@ -304,7 +304,7 @@
 		<repository>
 			<id>jcenter</id>
 			<name>JCenter</name>
-			<url>http://jcenter.bintray.com</url>
+			<url>https://jcenter.bintray.com</url>
 		</repository>
 		<repository>
 			<snapshots>
@@ -312,7 +312,7 @@
 			</snapshots>
 			<id>bintray-release</id>
 			<name>libs-release</name>
-			<url>http://oss.jfrog.org/artifactory/libs-release</url>
+			<url>https://oss.jfrog.org/artifactory/libs-release</url>
 		</repository>
 		<repository>
 			<snapshots>
@@ -320,12 +320,12 @@
 			</snapshots>
 			<id>bintray-snapshot</id>
 			<name>libs-snapshot</name>
-			<url>http://oss.jfrog.org/artifactory/libs-snapshot</url>
+			<url>https://oss.jfrog.org/artifactory/libs-snapshot</url>
 		</repository>
 		<repository>
 			<id>bintray-uom</id>
 			<name>Bintray Units of Measurement</name>
-			<url>http://dl.bintray.com/unitsofmeasurement/maven</url>
+			<url>https://dl.bintray.com/unitsofmeasurement/maven</url>
 		</repository>
 	</repositories>
 
