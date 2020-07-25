@@ -37,10 +37,10 @@
 		<project.build.sourceEncoding>${sourceEncoding}</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>${sourceEncoding}</project.reporting.outputEncoding>
 		<!-- dependency versions -->
-		<slf4j.version>1.7.28</slf4j.version>
+		<slf4j.version>1.7.30</slf4j.version>
 		<!-- Test settings -->
         <junit.version>4.12</junit.version><!-- TODO remove 4 in future version -->
-        <junit.jupiter.version>5.6.1</junit.jupiter.version>             
+        <junit.jupiter.version>5.6.2</junit.jupiter.version>             
         <hamcrest.version>2.2</hamcrest.version>
         <junit.platform.version>1.2.0</junit.platform.version>		
 		<!-- plugin versions -->
@@ -50,7 +50,7 @@
 		<maven.site.version>3.8.2</maven.site.version>
 		<maven.source.version>3.2.0</maven.source.version>
 		<maven.surefire.version>2.22.2</maven.surefire.version>
-		<felix.plugin.version>4.2.1</felix.plugin.version>
+		<felix.plugin.version>5.1.1</felix.plugin.version>
 		<jacoco.plugin.version>0.8.5</jacoco.plugin.version>
 	</properties>
 
