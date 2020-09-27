@@ -31,7 +31,7 @@
 		<url>https://github.com/unitsofmeasurement/uom-parent.git</url>
 	</scm>
 	<properties>
-		<jsr.version>2.0</jsr.version>
+		<jsr.version>2.1-SNAPSHOT</jsr.version>
 		<proj.version>${project.version}</proj.version>
 		<sourceEncoding>UTF-8</sourceEncoding>
 		<project.build.sourceEncoding>${sourceEncoding}</project.build.sourceEncoding>
