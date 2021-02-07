@@ -12,11 +12,6 @@
 		<name>Units of Measurement</name>
 		<url>https://unitsofmeasurement.github.io/</url>
 	</organization>
-	<parent>
-		<groupId>org.sonatype.oss</groupId>
-		<artifactId>oss-parent</artifactId>
-		<version>9</version>
-	</parent>
 	<licenses>
 		<license>
 			<name>BSD 3-Clause</name>
@@ -97,7 +92,7 @@
 			<name>Otávio Gonçalves de Santana</name>
 			<email>otaviopolianasantana@gmail.com</email>
 			<organization>Individual / SouJava</organization>
-			<timezone>-5</timezone>
+			<timezone>+1</timezone>
 			<roles>
 				<role>Expert</role>
 				<role>Java Developer</role>
