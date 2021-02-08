@@ -310,45 +310,25 @@
 	<!-- Additional repositories -->
 	<repositories>
 		<repository>
-			<id>jcenter</id>
-			<name>JCenter</name>
-			<url>https://jcenter.bintray.com</url>
-		</repository>
-		<repository>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-			<id>bintray-release</id>
-			<name>libs-release</name>
-			<url>https://oss.jfrog.org/artifactory/libs-release</url>
-		</repository>
-		<repository>
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
-			<id>bintray-snapshot</id>
-			<name>libs-snapshot</name>
-			<url>https://oss.jfrog.org/artifactory/libs-snapshot</url>
-		</repository>
-		<repository>
-			<id>bintray-uom</id>
-			<name>Bintray Units of Measurement</name>
-			<url>https://dl.bintray.com/unitsofmeasurement/maven</url>
-		</repository>
+			<id>ossrh-snapshot</id>
+			<name>OSSRH Snapshots</name>
+			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+		</repository>		
 	</repositories>
 
 	<!-- Deployment to public servers -->
 	<distributionManagement>
-		<repository>
-			<id>bintray-release</id>
-			<name>oss-jfrog-artifactory-release</name>
-			<url>https://oss.jfrog.org/artifactory/oss-release-local</url>
-		</repository>
-		<snapshotRepository>
-			<id>bintray-snapshot</id>
-			<name>oss-jfrog-artifactory-snapshot</name>
-			<url>https://oss.jfrog.org/artifactory/oss-snapshot-local</url>
-		</snapshotRepository>
+	    <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
 	</distributionManagement>
 
 	<!-- Dependency Management -->
