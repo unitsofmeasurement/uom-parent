@@ -13,7 +13,7 @@ This is the main parent `pom` for all Units of Measurement Maven projects.
 | --------------- | ------------- |
 | License:        | BSD 3-Clause  |
 | Build:          | Maven  |
-| Documentation:  | https://bintray.com/unitsofmeasurement/downloads  |
+| Documentation:  | http://unitsofmeasurement.github.io/downloads/  |
 | Issue tracker:  | [issues](https://github.com/unitsofmeasurement/uom-parent/issues)  |
 | Mailing lists:  | [units-users](http://groups.google.com/group/units-users/) ([subscribe](http://groups.google.com/group/units-users/subscribe))  |
 |                 | [units-dev](http://groups.google.com/group/units-dev/) ([subscribe](http://groups.google.com/group/units-dev/subscribe))  |
