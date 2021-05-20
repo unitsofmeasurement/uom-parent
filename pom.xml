@@ -7,7 +7,7 @@
 	<packaging>pom</packaging>
 	<name>Units of Measurement Parent</name>
 	<description>Units of Measurement Project Parent POM</description>
-	<version>2.1.2-SNAPSHOT</version>
+	<version>2.1.2</version>
 	<organization>
 		<name>Units of Measurement</name>
 		<url>https://unitsofmeasurement.github.io/</url>
@@ -48,11 +48,10 @@
 		<maven.resources.version>3.2.0</maven.resources.version>
 		<maven.site.version>3.9.1</maven.site.version>
 		<maven.source.version>3.2.1</maven.source.version>
-		<maven.surefire.version>2.22.2</maven.surefire.version>
+		<maven.surefire.version>3.0.0-M5</maven.surefire.version>
 		<maven.toolchains.version>3.0.0</maven.toolchains.version>
 		<maven.war.version>3.3.1</maven.war.version>		
 		<felix.plugin.version>5.1.2</felix.plugin.version>
-		<!-- Note 5.1.1 has a bug that erases the Automatic-Module-Name, do not use till solved -->
 		<formatter.plugin.version>2.13.0</formatter.plugin.version>
 		<license.plugin.version>4.1</license.plugin.version>		
 		<jacoco.plugin.version>0.8.7</jacoco.plugin.version>
