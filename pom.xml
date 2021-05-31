@@ -48,7 +48,7 @@
 		<maven.resources.version>3.2.0</maven.resources.version>
 		<maven.site.version>3.9.1</maven.site.version>
 		<maven.source.version>3.2.1</maven.source.version>
-		<maven.surefire.version>3.0.0-M5</maven.surefire.version>
+		<maven.surefire.version>2.22.2</maven.surefire.version>
 		<maven.toolchains.version>3.0.0</maven.toolchains.version>
 		<maven.war.version>3.3.1</maven.war.version>		
 		<felix.plugin.version>5.1.2</felix.plugin.version>
@@ -56,8 +56,8 @@
 		<license.plugin.version>4.1</license.plugin.version>		
 		<jacoco.plugin.version>0.8.7</jacoco.plugin.version>
 		<!-- Test settings -->
-		<junit.jupiter.version>5.7.2</junit.jupiter.version>		
-		<junit.platform.version>1.7.2</junit.platform.version>
+		<junit.jupiter.version>5.7.1</junit.jupiter.version>		
+		<junit.platform.version>1.7.1</junit.platform.version>
 		<hamcrest.version>2.2</hamcrest.version>
 	</properties>
 
