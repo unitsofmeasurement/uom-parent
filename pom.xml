@@ -56,8 +56,8 @@
 		<license.plugin.version>4.1</license.plugin.version>		
 		<jacoco.plugin.version>0.8.7</jacoco.plugin.version>
 		<!-- Test settings -->
-		<junit.jupiter.version>5.7.1</junit.jupiter.version>		
-		<junit.platform.version>1.7.1</junit.platform.version>
+		<junit.jupiter.version>5.7.2</junit.jupiter.version>		
+		<junit.platform.version>1.7.2</junit.platform.version>
 		<hamcrest.version>2.2</hamcrest.version>
 	</properties>
 
