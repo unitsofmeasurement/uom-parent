@@ -52,7 +52,7 @@
 		<maven.toolchains.version>3.0.0</maven.toolchains.version>
 		<maven.war.version>3.3.1</maven.war.version>		
 		<felix.plugin.version>5.1.2</felix.plugin.version>
-		<formatter.plugin.version>2.13.0</formatter.plugin.version>
+		<formatter.plugin.version>2.17.1</formatter.plugin.version>
 		<license.plugin.version>4.1</license.plugin.version>		
 		<jacoco.plugin.version>0.8.7</jacoco.plugin.version>
 		<!-- Test settings -->
