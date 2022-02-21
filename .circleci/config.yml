@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: cimg/openjdk:11.0.2
+      - image: cimg/openjdk:11.0.1
       
     working_directory: ~/repo
 
@@ -21,13 +21,13 @@ jobs:
       - run: echo $JAVA_HOME
       
       # run tests!
-      - run: mvn --batch-mode test jacoco:report
+      - run: mvn test jacoco:report
       
       - run: bash <(curl -s https://codecov.io/bash)
   deployment:
     docker:
       # specify the version you desire here
-      - image: cimg/openjdk:11.0.2
+      - image: cimg/openjdk:11.0.1
 
     working_directory: ~/repo
 
