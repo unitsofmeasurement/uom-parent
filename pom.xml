@@ -32,7 +32,11 @@
 		<project.build.sourceEncoding>${sourceEncoding}</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>${sourceEncoding}</project.reporting.outputEncoding>
 		<!-- dependency versions -->
-		<slf4j.version>1.7.30</slf4j.version>
+		<slf4j.version>1.7.36</slf4j.version>
+		<!-- Test settings -->
+		<junit.jupiter.version>5.8.2</junit.jupiter.version>		
+		<junit.platform.version>1.8.2</junit.platform.version>
+		<hamcrest.version>2.2</hamcrest.version>
 		<!-- plugin versions -->
 		<maven.assembly.version>3.3.0</maven.assembly.version>
 		<maven.clean.version>3.1.0</maven.clean.version>
@@ -55,10 +59,6 @@
 		<formatter.plugin.version>2.17.1</formatter.plugin.version>
 		<license.plugin.version>4.1</license.plugin.version>		
 		<jacoco.plugin.version>0.8.7</jacoco.plugin.version>
-		<!-- Test settings -->
-		<junit.jupiter.version>5.7.2</junit.jupiter.version>		
-		<junit.platform.version>1.7.2</junit.platform.version>
-		<hamcrest.version>2.2</hamcrest.version>
 	</properties>
 
 	<!-- Developers and Contributors -->
