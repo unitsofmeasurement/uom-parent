@@ -45,10 +45,10 @@
 		<maven.enforcer.version>3.0.0-M3</maven.enforcer.version>
 		<maven.install.version>3.0.0-M1</maven.install.version>
 		<maven.jar.version>3.2.0</maven.jar.version>
-		<maven.javadoc.version>3.2.0</maven.javadoc.version>
+		<maven.javadoc.version>3.4.1</maven.javadoc.version>
 		<maven.pmd.version>3.14.0</maven.pmd.version>
 		<maven.processor.version>4.3</maven.processor.version>
-		<maven.release.version>3.0.0-M1</maven.release.version>
+		<maven.release.version>3.0.0-M7</maven.release.version>
 		<maven.resources.version>3.2.0</maven.resources.version>
 		<maven.site.version>3.9.1</maven.site.version>
 		<maven.source.version>3.2.1</maven.source.version>
@@ -58,7 +58,7 @@
 		<felix.plugin.version>5.1.2</felix.plugin.version>
 		<formatter.plugin.version>2.17.1</formatter.plugin.version>
 		<license.plugin.version>4.1</license.plugin.version>		
-		<jacoco.plugin.version>0.8.7</jacoco.plugin.version>
+		<jacoco.plugin.version>0.8.8</jacoco.plugin.version>
 	</properties>
 
 	<!-- Developers and Contributors -->
