@@ -32,6 +32,7 @@
 		<project.build.sourceEncoding>${sourceEncoding}</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>${sourceEncoding}</project.reporting.outputEncoding>
 		<!-- dependency versions -->
+		<jakarta.inject.version>2.0.1</jakarta.inject.version>
 		<slf4j.version>1.7.36</slf4j.version>
 		<!-- Test settings -->
 		<junit.jupiter.version>5.8.2</junit.jupiter.version>		
@@ -340,6 +341,11 @@
 				<groupId>javax.measure</groupId>
 				<artifactId>unit-api</artifactId>
 				<version>${jsr.version}</version>
+			</dependency>
+			<dependency>
+		  		<groupId>jakarta.inject</groupId>
+		  		<artifactId>jakarta.inject-api</artifactId>
+		  		<version>${jakarta.inject.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
