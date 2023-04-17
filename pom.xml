@@ -47,6 +47,7 @@
 		<maven.install.version>3.0.0-M1</maven.install.version>
 		<maven.jar.version>3.2.0</maven.jar.version>
 		<maven.javadoc.version>3.4.1</maven.javadoc.version>
+		<maven.gpg.version>3.0.1</maven.gpg.version>
 		<maven.pmd.version>3.14.0</maven.pmd.version>
 		<maven.processor.version>4.3</maven.processor.version>
 		<maven.release.version>3.0.0-M7</maven.release.version>
@@ -55,6 +56,7 @@
 		<maven.source.version>3.2.1</maven.source.version>
 		<maven.surefire.version>2.22.2</maven.surefire.version>
 		<maven.toolchains.version>3.0.0</maven.toolchains.version>
+		<maven.versions.version>2.15.0</maven.versions.version>
 		<maven.war.version>3.3.1</maven.war.version>		
 		<felix.plugin.version>5.1.2</felix.plugin.version>
 		<formatter.plugin.version>2.17.1</formatter.plugin.version>
@@ -116,7 +118,7 @@
 		</developer>
 		<developer>
 			<id>thodorisbais</id>
-			<name>Thodoris Bais</name>
+			<name>Teo Bais</name>
 			<email>thodoris.bais@gmail.com</email>
 			<organization>Individual / Utrecht JUG</organization>
 			<timezone>+1</timezone>
@@ -242,7 +244,7 @@
 		<contributor>
 			<name>Mohamed Mahmoud Taman</name>
 			<email>mohamed.taman@gmail.com</email>
-			<organization>efinance</organization>
+			<organization>Nortal</organization>
 			<roles>
 				<role>Supporter</role>
 			</roles>
@@ -397,7 +399,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-gpg-plugin</artifactId>
-					<version>1.6</version>
+					<version>${maven.gpg.version}</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -503,7 +505,7 @@
 				<plugin>
 					<groupId>org.codehaus.mojo</groupId>
 					<artifactId>versions-maven-plugin</artifactId>
-					<version>2.5</version>
+					<version>${maven.versions.version}</version>
 				</plugin>
 				<plugin>
 					<groupId>org.bsc.maven</groupId>
