@@ -46,7 +46,7 @@
 		<maven.enforcer.version>3.3.0</maven.enforcer.version>
 		<maven.install.version>3.1.1</maven.install.version>
 		<maven.jar.version>3.3.0</maven.jar.version>
-		<maven.javadoc.version>3.5.0</maven.javadoc.version>
+		<maven.javadoc.version>3.6.0</maven.javadoc.version>
 		<maven.gpg.version>3.1.0</maven.gpg.version>
 		<maven.pmd.version>3.21.0</maven.pmd.version>
 		<maven.processor.version>4.5</maven.processor.version>
