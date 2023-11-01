@@ -52,16 +52,17 @@
 		<maven.processor.version>4.5</maven.processor.version>
 		<maven.release.version>3.0.0</maven.release.version>
 		<maven.resources.version>3.3.1</maven.resources.version>
-		<maven.site.version>3.12.0</maven.site.version>
+		<maven.site.version>3.12.1</maven.site.version>
 		<maven.source.version>3.2.1</maven.source.version>
-		<maven.surefire.version>3.1.0</maven.surefire.version>
+		<maven.surefire.version>3.2.1</maven.surefire.version>
+		<maven.surefire-report.version>3.2.1</maven.surefire-report.version>
 		<maven.toolchains.version>3.1.0</maven.toolchains.version>
 		<maven.versions.version>2.15.0</maven.versions.version>
 		<maven.war.version>3.3.2</maven.war.version>		
 		<felix.plugin.version>5.1.9</felix.plugin.version>
 		<formatter.plugin.version>2.22.0</formatter.plugin.version>
 		<license.plugin.version>4.2</license.plugin.version>		
-		<jacoco.plugin.version>0.8.10</jacoco.plugin.version>
+		<jacoco.plugin.version>0.8.11</jacoco.plugin.version>
 	</properties>
 
 	<!-- Developers and Contributors -->
@@ -532,7 +533,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-surefire-report-plugin</artifactId>
-					<version>${maven.surefire.version}</version>
+					<version>${maven.surefire-report.version}</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
