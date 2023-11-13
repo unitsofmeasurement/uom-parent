@@ -60,6 +60,7 @@
 		<maven.versions.version>2.15.0</maven.versions.version>
 		<maven.war.version>3.3.2</maven.war.version>		
 		<felix.plugin.version>5.1.9</felix.plugin.version>
+		<spotbugs-maven.version>4.8.1.0</spotbugs-maven.version>
 		<formatter.plugin.version>2.22.0</formatter.plugin.version>
 		<license.plugin.version>4.2</license.plugin.version>		
 		<jacoco.plugin.version>0.8.11</jacoco.plugin.version>
