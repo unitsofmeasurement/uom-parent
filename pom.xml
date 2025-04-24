@@ -63,7 +63,7 @@
 		<spotbugs-maven.version>4.8.1.0</spotbugs-maven.version>
 		<formatter.plugin.version>2.22.0</formatter.plugin.version>
 		<license.plugin.version>4.5</license.plugin.version>
-		<jacoco.plugin.version>0.8.12</jacoco.plugin.version>
+		<jacoco.plugin.version>0.8.13</jacoco.plugin.version>
 	</properties>
 
 	<!-- Developers and Contributors -->
