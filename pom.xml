@@ -54,8 +54,8 @@
 		<maven.resources.version>3.3.1</maven.resources.version>
 		<maven.site.version>3.12.1</maven.site.version>
 		<maven.source.version>3.2.1</maven.source.version>
-		<maven.surefire.version>3.2.5</maven.surefire.version>
-		<maven.surefire-report.version>3.2.5</maven.surefire-report.version>
+		<maven.surefire.version>3.5.3</maven.surefire.version>
+		<maven.surefire-report.version>3.5.3</maven.surefire-report.version>
 		<maven.toolchains.version>3.1.0</maven.toolchains.version>
 		<maven.versions.version>2.15.0</maven.versions.version>
 		<maven.war.version>3.3.2</maven.war.version>		
