@@ -56,9 +56,10 @@
 		<maven.source.version>3.2.1</maven.source.version>
 		<maven.surefire.version>3.5.3</maven.surefire.version>
 		<maven.surefire-report.version>3.5.3</maven.surefire-report.version>
-		<maven.toolchains.version>3.1.0</maven.toolchains.version>
+		<maven.toolchains.version>3.2.0</maven.toolchains.version>
 		<maven.versions.version>2.15.0</maven.versions.version>
 		<maven.war.version>3.3.2</maven.war.version>		
+		<maven.sonatype.version>0.7.0</maven.sonatype.version>
 		<felix.plugin.version>5.1.9</felix.plugin.version>
 		<spotbugs-maven.version>4.8.1.0</spotbugs-maven.version>
 		<formatter.plugin.version>2.22.0</formatter.plugin.version>
@@ -580,10 +581,14 @@
 						<datafile>${basedir}/target/coverage-reports/jacoco-unit.exec</datafile>
 					</configuration>
 				</plugin>
+				
+				<!-- ======================================================= -->
+				<!-- Sonatype Central -->
+				<!-- ======================================================= -->
 		        <plugin>
 		          <groupId>org.sonatype.central</groupId>
 		          <artifactId>central-publishing-maven-plugin</artifactId>
-		          <version>0.7.0</version>
+		          <version>${maven.sonatype.version}</version>
 		          <extensions>true</extensions>
 		          <configuration>
 		             <publishingServerId>central</publishingServerId>
@@ -593,11 +598,11 @@
 		        </plugin>
     		</plugins>
 		</pluginManagement>
+		
 		<plugins>
      		<plugin>
 		          <groupId>org.sonatype.central</groupId>
 		          <artifactId>central-publishing-maven-plugin</artifactId>
-		          <version>0.7.0</version>
 		          <extensions>true</extensions>
 		          <configuration>
 		             <publishingServerId>central</publishingServerId>
