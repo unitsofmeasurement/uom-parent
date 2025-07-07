@@ -592,6 +592,7 @@
 		          <extensions>true</extensions>
 		          <configuration>
 		             <publishingServerId>central</publishingServerId>
+		             <centralSnapshotsUrl>${sonatype.central.snapshotsUrl}</centralSnapshotsUrl>
 		             <autoPublish>true</autoPublish>
 		             <waitUntil>published</waitUntil>
 		          </configuration>
