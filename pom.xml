@@ -498,9 +498,6 @@
 							<goals>
 								<goal>install</goal>
 							</goals>
-							<configuration>
-								<createChecksum>true</createChecksum>
-							</configuration>
 						</execution>
 					</executions>
 				</plugin>
