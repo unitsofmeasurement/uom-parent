@@ -569,6 +569,7 @@
 	                <version>${spotbugs-maven.version}</version>
 	            </plugin>
 	            
+	            <!-- Jacoco -->
 				<plugin>
 					<groupId>org.jacoco</groupId>
 					<artifactId>jacoco-maven-plugin</artifactId>
@@ -578,6 +579,23 @@
 						<datafile>${basedir}/target/coverage-reports/jacoco-unit.exec</datafile>
 					</configuration>
 				</plugin>
+				
+				<!-- ======================================================= -->
+				<!-- Checksums -->
+				<!-- ======================================================= -->
+				<plugin>
+		            <groupId>net.nicoulaj.maven.plugins</groupId>
+		            <artifactId>checksum-maven-plugin</artifactId>
+		            <version>1.11</version>
+		            <executions>
+		                <execution>
+		                    <goals>
+		                        <goal>artifacts</goal>
+		                    </goals>
+		                </execution>
+		            </executions>
+		        </plugin>
+
 				
 				<!-- ======================================================= -->
 				<!-- Sonatype Central -->
@@ -599,15 +617,15 @@
 		
 		<plugins>
      		<plugin>
-		          <groupId>org.sonatype.central</groupId>
-		          <artifactId>central-publishing-maven-plugin</artifactId>
-		          <extensions>true</extensions>
-		          <configuration>
-		             <publishingServerId>central</publishingServerId>
-		             <autoPublish>true</autoPublish>
-		             <waitUntil>published</waitUntil>
-		          </configuration>
-		        </plugin>    	
-	        </plugins>
+	          	<groupId>org.sonatype.central</groupId>
+		        <artifactId>central-publishing-maven-plugin</artifactId>
+		        <extensions>true</extensions>
+		        <configuration>
+		           <publishingServerId>central</publishingServerId>
+		           <autoPublish>true</autoPublish>
+		           <waitUntil>published</waitUntil>
+		    	</configuration>
+	        </plugin>    	
+	    </plugins>
 	</build>
 </project>
