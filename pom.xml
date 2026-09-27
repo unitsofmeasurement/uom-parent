@@ -33,6 +33,7 @@
 		<project.reporting.outputEncoding>${sourceEncoding}</project.reporting.outputEncoding>
 		<!-- dependency versions -->
 		<jakarta.inject.version>2.0.1</jakarta.inject.version>
+		<jakarta.annotation.version>2.0.1</jakarta.annotation.version>
 		<slf4j.version>2.0.17</slf4j.version>
 		<!-- test settings -->
 		<junit.jupiter.version>5.12.2</junit.jupiter.version>		
